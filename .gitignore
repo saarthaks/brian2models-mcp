@@ -1,0 +1,22 @@
+.env
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.DS_Store
+*.so
+*.egg
+
+# User model library — built at install/seed time, not committed
+# (models/ dir in repo is for tracking curated additions only)
+~/.brian2_models/
+
+# Simulation outputs
+~/brian2_results/
+
+# Claude Code
+CLAUDE.md
+KICKSTART_PROMPT.md
+
